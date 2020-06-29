@@ -17,7 +17,7 @@ function get_func_addr(module, offset) {
 }
 
 
-
+// 0x0f40 用ida/hopper之类的软件获取的函数地址
 var func_addr = get_func_addr('testRlease', 0x0f40);
 console.log('func_addr: ' + func_addr);
 
